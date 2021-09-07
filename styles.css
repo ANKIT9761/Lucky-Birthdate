@@ -1,0 +1,100 @@
+:root {
+  --background-dark: #fff8e5;
+  --black: #000;
+}
+
+html {
+  background-color: var(--background-dark);
+  color: var(--black);
+  height: 100%;
+}
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container {
+  width: 300px;
+  margin: auto auto;
+}
+
+label,
+input {
+  display: block;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+label {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+input {
+  border-radius: 5px;
+  padding: 0.5rem;
+  border: transparent;
+  font-size: large;
+  margin: 1rem 0;
+}
+
+#calculate-number {
+  margin: 0.5rem auto;
+  display: block;
+}
+
+#calculate-number {
+  background-color: var(--background-dark);
+  border: 2px solid var(--black);
+  color: var(--black);
+  padding: 0.4rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: var(--black);
+  margin: auto;
+  display: block;
+}
+
+#output-container {
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: x-large;
+  border-color: var(--black);
+  border-width: medium;
+  border-radius: 5px;
+}
+
+/* footer */
+
+.list-non-bullet {
+  list-style: none;
+  padding-inline-start: 0px;
+  margin: 0 auto;
+
+  bottom: 0;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.footer {
+  padding: 2rem 1rem;
+  text-align: center;
+  border-top-right-radius: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
